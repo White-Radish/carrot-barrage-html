@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    position: absolute;
+    /* background-color:#9E9E9E; */
+    height:100%;
+    width:100%;
+    overflow: hidden;
+	background-image: url(../img/carrot.jpg);
+	background-repeat: no-repeat;
+	background-position:center;
+}
+.danmu {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+}
+.inputMessage {
+  border: 6px solid #000;
+  bottom: 0px;
+  height: 5%;
+  left: 0;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  width: 94%;
+}
+.page {
+  background-color: #8e9eab;
+   position: absolute;
+    height:95%;
+    width:96%;
+    overflow: hidden;
+	box-sizing: inherit;
+	/* background-color: #8e9eab; */
+	background: linear-gradient(to left, #8e9eab, #eef2f3);
+}
+
+.form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.usernameInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+.roomIdInput{
+	  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 400px;
+}
+.btn{
+	bottom: 0px;
+	    border: 10px;
+	    border: 5px solid green;
+	    position: absolute;
+		width: 5%;
+		margin-left: 95%;
+		height: 7%;
+}
+.closedBullet{
+	display: none;
+}
+.btn1{
+bottom: 0px;
+    border: 10px;
+    border: 9px solid green;
+    position: absolute;
+    width: 6%;
+    margin-left: 88%;
+    height: 7%;
+}
+.btn2{
+bottom: 19px;
+    border: 10px;
+    /* border: 0px solid green; */
+    position: absolute;
+    width: 4%;
+    margin-left: 92%;
+    height: 4%;
+}
+
+.shortselect{  
+    background:#fafdfe;  
+    height:28px;  
+    width:180px;  
+    line-height:28px;  
+    border:1px solid #9bc0dd;  
+    -moz-border-radius:2px;  
+    -webkit-border-radius:2px;  
+    border-radius:2px;  
+}  
